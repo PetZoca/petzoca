@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PetZoca</title>
+
+  <!-- Ícones e fontes -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Pacifico&display=swap">
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <div class="interface">
+      <section class="logo">
+        <i class="fa-solid fa-paw"></i>
+        <span>Petzoca</span>
+      </section>
+
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon"><i class="fa-solid fa-bars"></i></label>
+
+      <section class="menu-desktop">
+        <nav>
+          <ul>
+            <li><a href="#início">Início</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#localizacao">Localização</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <section class="btn-contato">
+        <a href="https://wa.me/558591029849?text=Olá,%20gostaria%20de%20agendar%20um%20banho%20para%20o%20meu%20pet.%20" target="_blank">
+          <button>Agendar</button>
+        </a>
+      </section>
+    </div>
+  </header>
+
+  <section class="hero-site">
+    <div class="interface">
+      <div class="txt-hero">
+        <h1>O melhor serviço para o seu <span>melhor amigo.</span></h1>
+        <a href="https://wa.me/558591029849?text=Olá,%20gostaria%20de%20agendar%20um%20banho%20para%20o%20meu%20pet.%20" target="_blank">
+          <button>Agendar agora</button>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços -->
+  <section class="titulo-servicos" id="servicos">
+    <div class="interface">
+      <h2>Serviços</h2>
+    </div>
+  </section>
+
+  <section class="servicos">
+    <div class="interface">
+      <article class="itens-container">
+        <div class="txt-itens">
+          <h3>Banho</h3>
+          <p>Nada como um bom banho para deixar seu pet limpinho, cheiroso e feliz! Usamos produtos de qualidade e muito carinho para cuidar da pele e dos pelos do seu melhor amigo.</p>
+        </div>
+        <div class="img-itens"><img src="images/banho2222.jfif" alt="Banho em pet"></div>
+      </article>
+
+      <article class="itens-container">
+        <div class="img-itens"><img src="images/corte-tosa.jpg" alt="Tosa em pet"></div>
+        <div class="txt-itens">
+          <h3>Tosa</h3>
+          <p>Seu pet ainda mais lindo! Nossa tosa é feita com cuidado, respeitando o estilo, o conforto e a personalidade de cada bichinho. Um verdadeiro dia de beleza para o seu companheiro!</p>
+        </div>
+      </article>
+
+      <article class="itens-container">
+        <div class="txt-itens">
+          <h3>Corte de unhas</h3>
+          <p>Pequenos detalhes fazem toda a diferença! O corte de unhas é feito com delicadeza e segurança, garantindo o bem-estar e evitando incômodos nas patinhas do seu pet.</p>
+        </div>
+        <div class="img-itens"><img src="images/corte-unha.jfif" alt="Corte de unhas pet"></div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Produtos -->
+  <section class="titulo-produtos" id="produtos">
+    <div class="interface">
+      <h2>Produtos</h2>
+    </div>
+  </section>
+
+  <section class="produtos">
+    <div class="cards-container">
+      <div class="card">
+        <img src="images/coleiras.png" alt="Coleira para pets" />
+        <h3>Coleiras</h3>
+        <p>Modelos confortáveis e resistentes para seu pet passear com estilo.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/brinquedos.jfif" alt="Brinquedo para pets" />
+        <h3>Brinquedos</h3>
+        <p>Brinquedos divertidos para garantir momentos de alegria e energia.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/racoes.png" alt="Ração premium para pets" />
+        <h3>Rações</h3>
+        <p>Rações de qualidade para manter a saúde e vitalidade do seu pet.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/petiscos.png" alt="Petiscos para pets" />
+        <h3>Petiscos</h3>
+        <p>Deliciosos petiscos para recompensar e agradar o seu amigo.</p>
+      </div>
+
+      <div class="card">
+        <img src="images/roupaspet.png" alt="Roupinhas para pets" />
+        <h3>Roupinhas</h3>
+        <p>Looks confortáveis e lindos para o seu pet.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pacotes -->
+  <section class="pacotes" id="pacotes">
+    <div class="interface">
+      <h2 class="titulo">Pacotes e Serviços</h2>
+      <p class="subtitulo">Todos os serviços são cobrados conforme porte e tipo de pelagem do pet.</p>
+
+      <div class="cards-pacotes">
+        <div class="card">
+          <h3><i class="fa-solid fa-shower"></i> Banho Simples</h3>
+          <ul>
+            <li>✔ Banho completo com produtos de qualidade</li>
+            <li>✔ Corte de unhas e limpeza de ouvidos</li>
+            <li>✔ Perfume e laço ou gravata</li>
+            <li><strong>*Valor conforme porte e pelagem</strong></li>
+          </ul>
+          <button>Agendar Agora</button>
+        </div>
+
+        <div class="card">
+          <h3><i class="fa-solid fa-scissors"></i> Banho & Tosa</h3>
+          <ul>
+            <li>✔ Banho completo</li>
+            <li>✔ Tosa higiênica e estética</li>
+            <li>✔ Corte conforme preferência do tutor</li>
+            <li>✔ Perfume e finalização</li>
+            <li><strong>*Valor conforme porte e pelagem</strong></li>
+          </ul>
+          <button>Agendar Agora</button>
+        </div>
+
+        <div class="card">
+          <h3><i class="fa-solid fa-paw"></i> Pacote Semanal</h3>
+          <ul>
+            <li>✔ 4 banhos no mês</li>
+            <li>✔ 2 tosas higiênicas</li>
+            <li>✔ Escovação e secagem completa</li>
+            <li><strong>*Valor conforme porte e pelagem</strong></li>
+          </ul>
+          <button>Assinar Pacote</button>
+        </div>
+
+        <div class="card">
+          <h3><i class="fa-solid fa-star"></i> Pacote Premium</h3>
+          <ul>
+            <li>✔ 4 banhos no mês + 1 tosa com máquina</li>
+            <li>✔ Check-up de pele e pelos</li>
+            <li>✔ Atendimento prioritário</li>
+            <li><strong>*Valor conforme porte e pelagem</strong></li>
+          </ul>
+          <button>Assinar Pacote</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Serviços adicionais -->
+  <section class="servicos">
+    <div class="interface">
+      <h2 class="titulo">Serviços Adicionais & Táxi Dog</h2>
+      <p class="subtitulo">Mais conforto e cuidado para o seu pet!</p>
+
+      <div class="cards-servicos">
+        <div class="card">
+          <h3><i class="fa-solid fa-bone"></i> Serviços Adicionais</h3>
+          <ul>
+            <li>✔ Hidratação Simples</li>
+            <li>✔ Hidratação Premium</li>
+            <li>✔ Limpeza de ouvidos</li>
+            <li>✔ Desembolo de pelos</li>
+            <li>✔ Tosa Higiênica</li>
+            <li>✔ Corte de unhas</li>
+          </ul>
+          <button>Verificar Valores</button>
+        </div>
+
+        <div class="card">
+          <h3><i class="fa-solid fa-taxi"></i> Táxi Dog</h3>
+          <ul>
+            <li>✔ Coleta e entrega do pet com segurança</li>
+            <li>✔ Agendamento flexível conforme sua rotina</li>
+            <li>✔ Ideal para quem não pode trazer o pet pessoalmente</li>
+          </ul>
+          <button>Solicitar Táxi Dog</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Localização -->
+  <section class="localizacao" id="localizacao">
+    <h2>Localização</h2>
+    <p>Encontre-nos facilmente no mapa abaixo:</p>
+    <div class="mapa">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3981.184551635319!2d-38.5445509!3d-3.7699849999999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7c74ec9622843e9%3A0x354f67a4ec28b8b0!2sR.%20da%20Saudade%2C%20204%20-%20Montese%2C%20Fortaleza%20-%20CE%2C%2060420-330!5e0!3m2!1spt-BR!2sbr!4v1760296056857!5m2!1spt-BR!2sbr"allowfullscreen=""loading="lazy"referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="interface">
+      <div class="footer-content">
+        <p>© 2025 PetZoca | Todos os direitos reservados.</p>
+        <div class="social-icons">
+          <a href="https://www.instagram.com/petzoca.oficial" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://wa.me/558591029849?text=Olá,%20gostaria%20de%20agendar%20um%20banho%20para%20o%20meu%20pet.%20" target="_blank"><i class="fab fa-whatsapp"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
